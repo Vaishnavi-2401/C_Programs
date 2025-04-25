@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void checknum(int num)
+void check_num(int num)
 {
     if(num < 0)
     {
@@ -19,6 +19,8 @@ void checknum(int num)
 int main()
 {
     int num = 10;
-    checknum(num);
+ 
+    check_num(num);
+    
     return 0;
 }
