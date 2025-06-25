@@ -17,6 +17,8 @@ void checknum(int num)
 int main()
 {
     int num = 101;
+
     checknum(num);
+    
     return 0;
 }

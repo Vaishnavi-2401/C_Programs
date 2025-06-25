@@ -20,7 +20,7 @@ int find_max(int arr[], int num)
 int main()
 {
     int arr[] = {1, 2, 3, 4};
-    int num = sizeof (arr) / sizeof(arr[0]);
+    int num = sizeof(arr) / sizeof(arr[0]);
 
     printf("Largest Element in an array : %d\n", find_max(arr, num));
 
